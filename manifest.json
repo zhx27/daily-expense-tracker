@@ -1,0 +1,34 @@
+{
+  "name": "日常记账",
+  "short_name": "记账",
+  "description": "简单易用的日常记账应用，帮助您轻松管理个人财务",
+  "start_url": "/daily-expense-tracker/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#a7d7e8",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "https://p3-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/rc/pc/super_tool/0eab2c2c0a9d4dd8ab76ff05deab1fcf~tplv-a9rns2rl98-image.image?rcl=20251229092651325D461E188D1E4632BD&rk3s=8e244e95&rrcfp=f06b921b&x-expires=1769563626&x-signature=aELpI9ZJmJdwFvu58AVr9%2BTmDjg%3D",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "快速记账",
+      "short_name": "记账",
+      "description": "添加新的收支记录",
+      "url": "/daily-expense-tracker/?action=add-record",
+      "icons": [{ "src": "https://p3-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/rc/pc/super_tool/0eab2c2c0a9d4dd8ab76ff05deab1fcf~tplv-a9rns2rl98-image.image?rcl=20251229092651325D461E188D1E4632BD&rk3s=8e244e95&rrcfp=f06b921b&x-expires=1769563626&x-signature=aELpI9ZJmJdwFvu58AVr9%2BTmDjg%3D", "sizes": "192x192" }]
+    },
+    {
+      "name": "查看统计",
+      "short_name": "统计",
+      "description": "查看收支统计图表",
+      "url": "/daily-expense-tracker/?action=view-stats",
+      "icons": [{ "src": "https://p3-flow-imagex-sign.byteimg.com/tos-cn-i-a9rns2rl98/rc/pc/super_tool/96cf5578422542448db13fb113eb492e~tplv-a9rns2rl98-image.image?rcl=20251229092651325D461E188D1E4632BD&rk3s=8e244e95&rrcfp=f06b921b&x-expires=1769563627&x-signature=4%2BH6VbdwJfL6%2FPzOeQWcrZJ8fD0%3D", "sizes": "192x192" }]
+    }
+  ]
+}
